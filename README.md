@@ -1,16 +1,15 @@
 
 # Code Challenge Juntos Somos+
 
-Para o desenvolvimento desse problema você pode utilizar alguma linguagem open-source, framework ou lib em que se sinta confortável. De preferência uma das nossas principais linguagens: Python, Kotlin, Node.js ou Java. Iremos avaliar a sua solução pela:
+O objetivo desse code challenge é, mais do que seu currículo, formação e certificações, avaliarmos como você lida com esse desafio, quais ferramentas escolhe, a qualidade do seu código e a maneira de pensar nele.
 
-- Organização
-- Manutenibilidade
-- Rastreabilidade
-- Testabilidade
-- Performance
-- Portabilidade
+A solução desse desafio é extremamente importante para entendermos os seus requisitos de qualidade, organização do seu código, performance, portabilidade e etc...
 
-Esperamos que ele seja **PRODUCTION READY**, então coloque todas as boas práticas que você estiver acostumado.
+Sinta-se à vontade para escolher a tecnologia e ferramentas. Queremos ser surpreendidos pela sua abordagem no desafio!
+
+Temos apenas dois pré-requisitos: código testado e pronto para produção.
+
+Topa?
 
 # O desafio
 
@@ -168,20 +167,9 @@ Você deverá usar como source os links abaixo (~1000 registros cada):
 - https://storage.googleapis.com/juntossomosmais-code-challenge/input-backend.csv
 - https://storage.googleapis.com/juntossomosmais-code-challenge/input-backend.json
 
-# Prazo e como entregar
+# Como entregar
 
-Esse desafio não deve tomar muito do seu tempo, a ideia dele é ser prático. Porém, vamos dar o prazo de **7 dias**  a partir do momento que você o recebê-lo.
+Você deve disponibilizar seu código em algum serviço de hospedagem como Bitbucket, Gitlab ou Github. Manter o repo como privado.
+É obrigatório ter um **README** com todas as instruções sobre o seu desafio.
 
-Para entregá-lo você deve usar um dos seguintes serviços de hospedagem de código: [Bitbucket](https://bitbucket.org/), [GitLab](https://gitlab.com/) ou [GitHub](https://github.com/). O repositório deve ser **PRIVADO**. Fique ligado, repositórios públicos **não serão aceitos!**
-
-Pedimos que você faça um **README** com pelo menos instruções básicas. Exemplos:
-
-- Como rodar localmente
-- Como rodar os testes
-- Como fazer o deploy
-
-Prezamos muito por documentação em forma de README, então faça dele seu cartão de visita. Caso as regras não estejam claras, implemente da maneira que achar melhor, pois na entrevista você poderá defender seu entendimento.
-
-Quando terminar o desafio, avisa pra gente que nós vamos te passar uma lista de usuários que devem ter acesso de leitura ao seu repo pra poder cloná-lo e fazer a correção.
-
-Bom teste!
+Assim que finalizar, nos avise para enviarmos os usuários que devem ter acesso para avaliação.
