@@ -3,9 +3,9 @@
 
 O objetivo desse code challenge é, mais do que seu currículo, formação e certificações, avaliarmos como você lida com esse desafio, quais ferramentas escolhe, a qualidade do seu código e a maneira de pensar nele.
 
-A solução desse desafio é extremamente importante para entendermos os seus requisitos de qualidade, organização do seu código, performance, portabilidade e etc...
+A solução desse desafio é extremamente importante para entendermos os seus requisitos de qualidade, organização do seu código, performance, portabilidade, etc.
 
-Sinta-se à vontade para escolher a tecnologia e ferramentas. Queremos ser surpreendidos pela sua abordagem no desafio!
+Sinta-se à vontade para escolher a tecnologia e ferramentas que achar necessário. Queremos ser surpreendidos pela sua abordagem no desafio!
 
 Temos apenas dois pré-requisitos: código testado e pronto para produção.
 
@@ -123,53 +123,54 @@ Exemplo de contrato de OUTPUT:
 **Os dados devem ser armazenados conforme o contrato de OUTPUT também.**
 
 
-## FRONT-END ou APPS: Fazer uma interface de interação
+## FRONT-END/APPS: Interface
 
-Em [função do nosso layout base](layout-desktop.jpg), **fique a vontade para reformulá-lo** a fim de casar com os seguintes **comportamentos obrigatórios**:
-   
-- Quando se clicar em um cliente, deve apresentar uma tela de detalhe com as informações dele.
-- Permitir a possibilidade do usuário navegar entre as fotos dos clientes na listagem e/ou detalhe.
-- Filtros pela região e/ou classificação do cliente.
-- Paginação por 30 elementos.
-- Interface responsiva (front) / adaptável para telas diferentes (apps).
-- A lógica nesse caso ficará toda no front/app, então você vai trabalhar com todos dados em memória. O input deve ser acessado via request http (CORS friendly).
-   
-Use sua criatividade e aproveite das informações do usuário para mostrar o card e o detalhe como você entende que seria a melhor forma e também a mais performática.
+Em [função do nosso layout base](layout-desktop.jpg), **fique a vontade para reformulá-lo** a fim de casar com os seguintes **requisitos obrigatórios**:
+  
+  - Uma tela de detalhe deve ser apresentada quando se clicar em um cliente.
+  - Navegação entre as fotos dos clientes.
+  - Filtros pela região e/ou classificação do cliente.
+  - A interface **deve** ser responsiva (front-end)
+  - A interface **deve** ser adaptável para telas diferentes (apps)
+  - Não deve existir alguém externo, isto é, todo a lógica tem que ser trabalhada em memória, dentro do seu projeto. O carregamento dos dados de input deve ser por meio de request HTTP.
 
-Você deverá usar como input os links abaixo (~200 registros cada):
+Desenvolva da maneira que você achar melhor como mostrar os dados do usuário.
+
+Use como input os links abaixo (~200 registros cada):
 
 - https://storage.googleapis.com/juntossomosmais-code-challenge/input-frontend-apps.csv
 - https://storage.googleapis.com/juntossomosmais-code-challenge/input-frontend-apps.json
 
-## BACK-END: Fazer uma API
+## BACK-END: API
 
-Coloque essa lógica numa API backend, onde dada a **região do usuário** e seu **tipo de classificação** em uma request o seu response será a **listagem dos elegíveis**. O routing da aplicação fica a seu gosto.
+Pense em uma API que dada a **região do usuário** e seu **tipo de classificação**, responda a **listagem dos elegíveis**. Não existe routing definido para a aplicação, fica a seu gosto.
 
-Assim como no FRONT-END e APPS, é **obrigatório** trabalhar com toda manipulação dos dados **em memória** (não é permitido usar qualquer tipo de database), então você precisará carregar o source em algum momento e fazendo **uma requisição HTTP** para uma das urls logo abaixo para obter os dados.
+É **obrigatório** trabalhar com toda manipulação dos dados **em memória**. O carregamento dos dados de input deve ser por meio de request HTTP.
 
-O payload da response, além de conter a lista de usuários com o contrato de _output_, **deve conter** os seguintes metadados de paginação e totais, implementar esses metadados é **obrigatório**:
+Além da lista dos usuários elegíveis, para permitir navegação entre os registros, **deve ser implementado** os seguintes metadados de paginação:
 
 ```
   {
-    pageNumber: int32,
-    pageSize: int32,
-    totalCount: int32,
-    listings: [
+    pageNumber: X,
+    pageSize: P,
+    totalCount: T,
+    users: [
       ...
     ]
   }
 ```
 
-Faça essa API pensando que ela pode ser consumida por vários tipos de clientes e com diferentes propósitos, portanto implemente o que mais achar relevante e que faça sentido.
+Imagine que essa API seja possa ser acessada por consumidores específicos, então coloque o que mais achar necessário.
 
-Você deverá usar como source os links abaixo (~1000 registros cada):
+Use como input os links abaixo (~1000 registros cada):
 
 - https://storage.googleapis.com/juntossomosmais-code-challenge/input-backend.csv
 - https://storage.googleapis.com/juntossomosmais-code-challenge/input-backend.json
 
 # Como entregar
 
-Você deve disponibilizar seu código em algum serviço de hospedagem como Bitbucket, Gitlab ou Github. Manter o repo como privado.
+Você deve disponibilizar seu código em algum serviço de hospedagem como Bitbucket, Gitlab ou Github e manter o repositório como privado.
+
 É obrigatório ter um **README** com todas as instruções sobre o seu desafio.
 
 Assim que finalizar, nos avise para enviarmos os usuários que devem ter acesso para avaliação.
