@@ -145,7 +145,7 @@ Use como input os links abaixo (~200 registros cada):
 
 Pense em uma API que dada a **região do usuário** e seu **tipo de classificação**, responda a **listagem dos elegíveis**. Não existe routing definido para a aplicação, fica a seu gosto.
 
-É **obrigatório** trabalhar com toda manipulação dos dados **em memória**. O carregamento dos dados de input deve ser por meio de request HTTP.
+É **obrigatório** trabalhar com toda manipulação dos dados **em memória**. O carregamento dos dados de input deve ser por meio de request HTTP **ao subir a sua aplicação**, ou seja, antes do seu App estar `ready`, você fará um request para os links fornecidos abaixo.
 
 Além da lista dos usuários elegíveis, para permitir navegação entre os registros, **deve ser implementado** os seguintes metadados de paginação:
 
