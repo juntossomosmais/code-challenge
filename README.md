@@ -122,26 +122,7 @@ Exemplo de contrato de OUTPUT:
 
 **Os dados devem ser armazenados conforme o contrato de OUTPUT também.**
 
-
-## FRONT-END/APPS: Interface
-
-Em [função do nosso layout base](layout-desktop.jpg), **fique a vontade para reformulá-lo** a fim de casar com os seguintes **requisitos obrigatórios**:
-  
-  - Uma tela de detalhe deve ser apresentada quando se clicar em um cliente.
-  - Navegação entre as fotos dos clientes.
-  - Filtros pela região e/ou classificação do cliente.
-  - A interface **deve** ser responsiva (front-end)
-  - A interface **deve** ser adaptável para telas diferentes (apps)
-  - Não deve existir alguém externo, isto é, todo a lógica tem que ser trabalhada em memória, dentro do seu projeto. O carregamento dos dados de input deve ser por meio de request HTTP.
-
-Desenvolva da maneira que você achar melhor como mostrar os dados do usuário.
-
-Use como input os links abaixo (~200 registros cada):
-
-- https://storage.googleapis.com/juntossomosmais-code-challenge/input-frontend-apps.csv
-- https://storage.googleapis.com/juntossomosmais-code-challenge/input-frontend-apps.json
-
-## BACK-END: API
+## Faça uma API
 
 Pense em uma API que dada a **região do usuário** e seu **tipo de classificação**, responda a **listagem dos elegíveis**. Não existe routing definido para a aplicação, fica a seu gosto.
 
@@ -167,10 +148,24 @@ Use como input os links abaixo (~1000 registros cada):
 - https://storage.googleapis.com/juntossomosmais-code-challenge/input-backend.csv
 - https://storage.googleapis.com/juntossomosmais-code-challenge/input-backend.json
 
+## Caso esteja pensando em full-stack
+
+Em [função do nosso layout base](layout-desktop.jpg), **fique a vontade para reformulá-lo** a fim de casar com os seguintes **requisitos obrigatórios**:
+  
+  - Uma tela de detalhe deve ser apresentada quando se clicar em um cliente;
+  - Navegação entre as fotos dos clientes;
+  - Filtros pela região e/ou classificação do cliente.
+
+Desenvolva da maneira que você achar melhor como mostrar os dados do usuário.
+
+Use a API feita por você pra lidar com os requisitos acima.
+
+Se a sua vaga for específica para front-end, veja [este outro desafio](https://github.com/juntossomosmais/frontend-challenge).
+
 # Como entregar
 
 Você deve disponibilizar seu código em algum serviço de hospedagem como Bitbucket, Gitlab ou Github e manter o repositório como privado.
 
 É obrigatório ter um **README** com todas as instruções sobre o seu desafio.
 
-Assim que finalizar, nos avise para enviarmos os usuários que devem ter acesso para avaliação.
+Assim que finalizar, nos avise pelo e-mail vagas-dev@juntossomosmais.com.br para enviarmos os usuários que devem ter acesso para avaliação.
