@@ -145,8 +145,8 @@ Imagine que essa API seja possa ser acessada por consumidores espec√≠ficos, ent√
 
 Use como input os links abaixo (~1000 registros cada):
 
-- https://storage.googleapis.com/juntossomosmais-code-challenge/input-backend.csv
-- https://storage.googleapis.com/juntossomosmais-code-challenge/input-backend.json
+- https://jsm-challenges.s3.amazonaws.com/input-backend.csv
+- https://jsm-challenges.s3.amazonaws.com/input-backend.json
 
 ## Caso esteja pensando em full-stack
 
