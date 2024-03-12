@@ -9,7 +9,7 @@ Sinta-se à vontade para escolher a tecnologia e ferramentas que achar necessár
 
 Temos apenas dois pré-requisitos: código testado e pronto para produção.
 
-Topa?
+Topa? 😁
 
 # O desafio
 
@@ -77,7 +77,7 @@ Outro ponto é que temos intenção de expandir os serviços para outros países
 
 Exemplo de contrato de OUTPUT:
 
-```
+```json
 {
   "type": "laborious"
   "gender": "m",
@@ -120,8 +120,6 @@ Exemplo de contrato de OUTPUT:
 
 ```
 
-**Os dados devem ser armazenados conforme o contrato de OUTPUT também.**
-
 ## Faça uma API
 
 Pense em uma API que dada a **região do usuário** e seu **tipo de classificação**, responda a **listagem dos elegíveis**. Não existe routing definido para a aplicação, fica a seu gosto.
@@ -148,24 +146,23 @@ Use como input os links abaixo (~1000 registros cada):
 - https://storage.googleapis.com/juntossomosmais-code-challenge/input-backend.csv
 - https://storage.googleapis.com/juntossomosmais-code-challenge/input-backend.json
 
-## Caso esteja pensando em full-stack
-
-Em [função do nosso layout base](layout-desktop.jpg), **fique a vontade para reformulá-lo** a fim de casar com os seguintes **requisitos obrigatórios**:
-  
-  - Uma tela de detalhe deve ser apresentada quando se clicar em um cliente;
-  - Navegação entre as fotos dos clientes;
-  - Filtros pela região e/ou classificação do cliente.
-
-Desenvolva da maneira que você achar melhor como mostrar os dados do usuário.
-
-Use a API feita por você pra lidar com os requisitos acima.
-
-Se a sua vaga for específica para front-end, veja [este outro desafio](https://github.com/juntossomosmais/frontend-challenge).
 
 # Como entregar
 
-Você deve disponibilizar seu código em algum serviço de hospedagem como Bitbucket, Gitlab ou Github e manter o repositório como privado.
+Você deve disponibilizar seu código em seu repositório do Github e manter o repositório como privado.
 
 É obrigatório ter um **README** com todas as instruções sobre o seu desafio.
 
-Assim que finalizar, nos avise pelo e-mail vagas-dev@juntossomosmais.com.br para enviarmos os usuários que devem ter acesso para avaliação.
+Assim que finalizar, nos avise pelo e-mail vagas-dev@juntossomosmais.com.br com:
+
+- Assunto: [Back-end Developer] Seu Nome;
+- Link do repositório para testes
+- Informações sobre você: Github, LinkedIn e o que mais achar relevante.
+
+Em seguinda enviaremos o(s) usuário(s) do github que você deve liberar acesso ao código.
+
+O prazo para envio é de 10 dias, mas se precisar de mais tempo é só nos avisar 😊
+
+## Outros desafios
+
+Se a sua vaga for específica para front-end, veja [este outro desafio](https://github.com/juntossomosmais/frontend-challenge).
