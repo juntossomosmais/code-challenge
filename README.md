@@ -146,6 +146,10 @@ Use como input os links abaixo (~1000 registros cada):
 - https://storage.googleapis.com/juntossomosmais-code-challenge/input-backend.csv
 - https://storage.googleapis.com/juntossomosmais-code-challenge/input-backend.json
 
+## Validação
+
+O arquivo [validate.sh](./validate.sh) contém um teste mínimo da chamada da API. O teste só será avaliado se a API for validada corretamente com esse script.
+
 
 # Como entregar
 
