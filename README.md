@@ -5,7 +5,7 @@ O objetivo desse code challenge é, mais do que seu currículo, formação e cer
 
 A solução desse desafio é extremamente importante para entendermos os seus requisitos de qualidade, organização do seu código, performance, portabilidade, etc.
 
-Sinta-se à vontade para escolher a tecnologia e ferramentas que achar necessário. Queremos ser surpreendidos pela sua abordagem no desafio!
+O desafio deve ser feito em Python ou C#, de acordo com a vaga do processo seltivo. Sinta-se à vontade para escolher as ferramentas que achar necessário. Queremos ser surpreendidos pela sua abordagem no desafio!
 
 Temos apenas dois pré-requisitos: código testado e pronto para produção.
 
