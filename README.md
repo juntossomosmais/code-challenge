@@ -139,7 +139,7 @@ Além da lista dos usuários elegíveis, para permitir navegação entre os regi
   }
 ```
 
-Imagine que essa API seja possa ser acessada por consumidores específicos, então coloque o que mais achar necessário.
+Imagine que essa API possa ser acessada por consumidores específicos, então coloque o que mais achar necessário.
 
 Use como input os links abaixo (~1000 registros cada):
 
@@ -163,7 +163,7 @@ Assim que finalizar, nos avise pelo e-mail vagas-dev@juntossomosmais.com.br com:
 - Link do repositório para testes
 - Informações sobre você: Github, LinkedIn e o que mais achar relevante.
 
-Em seguinda enviaremos o(s) usuário(s) do github que você deve liberar acesso ao código.
+Em seguida enviaremos o(s) usuário(s) do github que você deve liberar acesso ao código.
 
 O prazo para envio é de 7 dias, mas se precisar de mais tempo é só nos avisar 😊
 
