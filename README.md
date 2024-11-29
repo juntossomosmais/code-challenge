@@ -143,8 +143,8 @@ Imagine que essa API possa ser acessada por consumidores específicos, então co
 
 Use como input os links abaixo (~1000 registros cada):
 
-- https://storage.googleapis.com/juntossomosmais-code-challenge/input-backend.csv
-- https://storage.googleapis.com/juntossomosmais-code-challenge/input-backend.json
+- https://jsm-challenges.s3.amazonaws.com/input-backend.csv
+- https://jsm-challenges.s3.amazonaws.com/input-backend.json
 
 ## Validação
 
